@@ -34,12 +34,11 @@ body {
   .memes {
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    grid-template-rows: repeat(3, 1fr);   /* 3 equal rows */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
-  /* Styling for images */
   .memes img{
-    width: 400px; /* Ensures images fit the cell width */
-    height: auto; /* Maintains aspect ratio */
+    width: 400px;
+    height: auto;
   }
