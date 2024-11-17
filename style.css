@@ -1,0 +1,45 @@
+  .screenshots-of-light-theme-pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "img1_1 img1_2 img1_3"
+      "img2_1 img2_2 img2_3";
+  }
+  
+  .spotify { grid-area: img1_1; }
+  .the-reddit-one { grid-area: img1_2; }
+  .discord { grid-area: img1_3; }
+  .jetbrains { grid-area: img2_1; }
+  .stocks { grid-area: img2_2; }
+  .developerhub.io { grid-area: img2_3; }
+
+
+body {
+    font-family: monospace;
+    margin: 0;
+}
+
+    .black-bg {
+        color: white;
+        min-height: 100vh;
+        
+}
+.benefits-of-light-and-dark-theme {
+    display: flex;
+    gap: 50px;
+  }
+
+  .memes {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, 1fr);   /* 3 equal rows */
+  }
+
+  /* Styling for images */
+  .memes img{
+    width: 400px; /* Ensures images fit the cell width */
+    height: auto; /* Maintains aspect ratio */
+  }
